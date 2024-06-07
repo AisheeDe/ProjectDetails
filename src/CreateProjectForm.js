@@ -142,7 +142,6 @@ const CreateProjectForm = () => {
           />
           <select name="budgetType" value={formData.budgetType} onChange={handleChange}>
             <option value="Hours per Person">Hours per Person</option>
-            {/* Add more budget types as needed */}
           </select>
           <div className="budget">
             <input
