@@ -1,0 +1,61 @@
+.create-project-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .form-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, select, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .date-range {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .budget, .view-selection, .manage-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .budget input, .view-selection button, .manage-projects button {
+    width: 100%;
+  }
+  
+  .task-list, .team-list {
+    width: 100%;
+  }
+  
+  .task-list ul, .team-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list li, .team-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .task-list button, .team-list button {
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
